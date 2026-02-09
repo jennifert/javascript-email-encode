@@ -1,7 +1,8 @@
 {
   "name": "encode-email",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A simple email encoder built with TypeScript and Vite.",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,5 +12,22 @@
   "devDependencies": {
     "typescript": "~5.9.3",
     "vite": "^7.2.4"
-  }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennifert/javascript-email-encode.git"
+  },
+  "homepage": "https://github.com/jennifert/javascript-email-encode#readme",
+  "bugs": {
+    "url": "https://github.com/jennifert/javascript-email-encode/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
