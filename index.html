@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+  <title>Email Encode</title>
+</head>
+
+<body>
+  <header>
+    <h1>Email Encode</h1>
+  </header>
+
+  <main class="container-fluid">
+
+    <div id="result" aria-live="polite" aria-atomic="true"></div>
+
+    <form id="email-encode">
+      <legend>Enter email details:</legend>
+      <fieldset>
+
+        <label for="txtTo">
+          To:
+          <input type="email" id="txtTo" name="to" required aria-required="true" placeholder="Enter recipient's email">
+        </label>
+
+        <label for="txtCc">
+          Cc:
+          <input type="email" id="txtCc" name="cc" placeholder="Optional">
+        </label>
+
+        <label for="txtBcc">Bcc:</label>
+        <input type="email" id="txtBcc" name="bcc" placeholder="Optional">
+
+        <label for="txtSubject">
+          Subject:
+          <input type="text" id="txtSubject" name="subject" placeholder="Enter subject">
+        </label>
+
+        <label for="txtBody">
+          Body:
+          <textarea id="txtBody" name="body" placeholder="Enter your message here" required
+            aria-required="true"></textarea>
+        </label>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+
+    </form>
+
+    <fieldset>
+      <legend>Generated mailto link</legend>
+      <label for="mailtoLink">Copy this into your HTML email:</label>
+      <textarea id="mailtoLink" readonly rows="3" style="width:100%;"></textarea>
+      <button id="copyLink">Copy to Clipboard</button>
+    </fieldset>
+
+  </main>
+
+  <footer>
+    <p>
+      Built with <strong>vanilla JavaScript</strong>, <strong>TypeScript</strong>,
+      <strong>Pico.css</strong>, and <strong>Vite</strong>.
+      Check out the code on
+      <a href="https://gist.github.com/yourusername" target="_blank" rel="noopener">Gist</a>
+      or
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>.
+    </p>
+  </footer>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
