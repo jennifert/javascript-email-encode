@@ -96,6 +96,7 @@ Optionally:
 - [Pico.css](https://picocss.com/) for the minimal, classless CSS framework.
 - [Vite](https://vitejs.dev/) for fast and modern bundling.
 - [Shields.io](https://shields.io/) for providing the awesome badges.
+- [Awesome README](https://github.com/matiassingers/awesome-readme) — For formatting inspiration
 
 ---
 
@@ -109,6 +110,4 @@ TBD
 
 - Add email validation
 - Implement better UX/UI for results display
-- Add more email-related features (e.g., subject encoding, multiple recipients)
-- Integrate with an email API for live testing
-
+- Add more email-related features (e.g., multiple cc, bcc)
